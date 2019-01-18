@@ -291,10 +291,10 @@ footer {
   }
 }
 @media (max-width: 500px) {
-  .btn {
+  .button {
     width: 400px;
     height: 70px;
     background-color: #22283A;
-    font-display: white;
+    color: white;
   }
 }
