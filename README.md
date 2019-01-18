@@ -32,15 +32,27 @@ Demonstrate your understanding of this week's concepts by answering the followin
 
 Edit this document to include your answers after each question. Make sure to leave a blank line above and below your answer so it is clear and easy to read by your project manager
 
-1. What is the difference between an adaptive website and a fully responsive website? .
+1. What is the difference between an adaptive website and a fully responsive website? 
+
+An adaptive website is one that can accommodate many different devices, but needs to be formatted for all those devices. They are hard coded in to respond to all kinds of different devices. Alternatively, a responsive website uses a viewport and media queries to adjust to mobile, tablet, desktop versions. You have a much faster and smoother viewing experience. 
 
 2. Describe what it means to be mobile first vs desktop first.
 
+Desktop first means you are starting with desktop design and working your way down to tablet and then mobile screen sizing. Tablet max width 800px, mobile 500px.
+
 3. What does `font-size: 62.5%` in the `html` tag do for us when using `rem` units?
+
+Setting the font size to 62.5% first, allows us to program without having to use a calculator to figure out dimensions. Instead we use rem in units of 10. I.e- 1 rem (10px), 2 rem 20px etc.
 
 4. How would you describe preprocessing to someone new to CSS?
 
+Preprocessing in CSS allows for a much simpler layout and one that is easier to read. It is organized and “clean” and uses different concepts like preset variables, mixins, escaping etc. 
+
 5. What is your favorite concept in preprocessing? What is the concept that gives you the most trouble?
+
+My favorite concept of preprocessing is the functionality and ease of finding everything in its own designated folder. Instead of scrolling endlessly, you simply navigate to the file you’re looking for and its all there clean and neat. Right now the hardest part is incorporating parametric mixins, although my confusion is probably due the fact that we are only building one page websites and I don’t see the true value of it yet in a huge project. 
+
+---------------------------------------------------------------------------------------
 
 You are expected to be able to answer all these questions. Your responses contribute to your Sprint Challenge grade. Skipping this section *will* prevent you from passing this challenge.
 
